@@ -15,6 +15,7 @@ package algorithm
  */
 func isSymmetric(root *TreeNode) bool {
 	isMirror(root, root)
+	return true
 }
 func isMirror(left *TreeNode, right *TreeNode) bool {
 	if left == nil && right == nil {

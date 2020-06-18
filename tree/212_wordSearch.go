@@ -16,5 +16,5 @@ func (t *TreeNode) addNode(board [][]byte, x int, y int) {
 }
 
 func exist(board [][]byte, word string) bool {
-
+	return true
 }
