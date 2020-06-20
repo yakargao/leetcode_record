@@ -15,7 +15,6 @@ import "math"
  *     Right *TreeNode
  * }
  */
-var ans = math.MinInt32
 
 func diameterOfBinaryTree(root *TreeNode) int {
 	if root == nil {
