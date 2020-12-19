@@ -20,26 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6895594-4728-4ae6-b742-c0152824aab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtrack/46_permutations.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/46_permutations_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/47_permutations-ii.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/47_permutations-ii_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/51_n-queens.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/51_n-queens_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrack/model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/111_minimum-depth-of-binary-tree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/111_minimum-depth-of-binary-tree_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/752_open-the-lock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/752_open-the-lock_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/common_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/322_coin-change.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/322_coin-change_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/509_fib.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/509_fib_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack/jzo38_zi-fu-chuan-de-pai-lie-lcof.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/141_linked-list-cycle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/242_valid-anagram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/438_find-all-anagrams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/438_find-all-anagrams_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/567_permutation-in-string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/567_permutation-in-string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/46_permutations_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/backtrack/46_permutations_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,51 +64,67 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bfs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/double_point/sliding_window" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/double_point" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/double_point/sliding_window" />
+      <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/bfs" />
       <recent name="$PROJECT_DIR$/backtrack" />
       <recent name="$PROJECT_DIR$/dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestOpenLock in github.com/leetcode_record/bfs">
-    <configuration name="TestMinDepth in github.com/leetcode_record/bfs (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)">
+    <configuration name="TestCheckInclusion in github.com/leetcode_record/sliding_window (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/bfs" />
+      <working_directory value="$PROJECT_DIR$/sliding_window" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/bfs" />
+      <package value="github.com/leetcode_record/sliding_window" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMinDepth\E$" />
+      <pattern value="^\QTestCheckInclusion\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMinDepth in github.com/leetcode_record/bfs (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCheckInclusion in github.com/leetcode_record/sliding_window" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/bfs" />
+      <working_directory value="$PROJECT_DIR$/sliding_window" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/bfs" />
+      <package value="github.com/leetcode_record/sliding_window" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMinDepth\E$" />
+      <pattern value="^\QTestCheckInclusion\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestOpenLock in github.com/leetcode_record/bfs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/bfs" />
+      <working_directory value="$PROJECT_DIR$/double_point/sliding_window" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/bfs" />
+      <package value="github.com/leetcode_record/double_point/sliding_window" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestOpenLock\E$" />
+      <pattern value="^\QTestFindAnagrams\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSolveNQueens in github.com/leetcode_record/backtrack (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_record" />
+      <working_directory value="$PROJECT_DIR$/double_point/sliding_window" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/leetcode_record/double_point/sliding_window" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestFindAnagrams\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPermutation in github.com/leetcode_record/backtrack (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
       <working_directory value="$PROJECT_DIR$/backtrack" />
       <framework value="gotest" />
@@ -123,27 +132,16 @@
       <package value="github.com/leetcode_record/backtrack" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSolveNQueens\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSolveNQueens in github.com/leetcode_record/backtrack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/backtrack" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/backtrack" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSolveNQueens\E$" />
+      <pattern value="^\QTestPermutation\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestOpenLock in github.com/leetcode_record/bfs" />
-        <item itemvalue="Go Test.TestSolveNQueens in github.com/leetcode_record/backtrack (1)" />
-        <item itemvalue="Go Test.TestSolveNQueens in github.com/leetcode_record/backtrack" />
-        <item itemvalue="Go Test.TestMinDepth in github.com/leetcode_record/bfs (2)" />
-        <item itemvalue="Go Test.TestMinDepth in github.com/leetcode_record/bfs (1)" />
+        <item itemvalue="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)" />
+        <item itemvalue="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window" />
+        <item itemvalue="Go Test.TestCheckInclusion in github.com/leetcode_record/sliding_window (1)" />
+        <item itemvalue="Go Test.TestCheckInclusion in github.com/leetcode_record/sliding_window" />
+        <item itemvalue="Go Test.TestPermutation in github.com/leetcode_record/backtrack (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,46 +171,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="322" y="214" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1608044799817" />
-    <state width="1388" height="302" key="GridCell.Tab.0.bottom" timestamp="1608134786519">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1388" height="416" key="GridCell.Tab.0.bottom" timestamp="1608389170192">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="302" key="GridCell.Tab.0.bottom/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186427" />
-    <state width="1388" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608134786519" />
-    <state width="1388" height="302" key="GridCell.Tab.0.center" timestamp="1608134786517">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1388" height="416" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608387911625" />
+    <state width="1388" height="416" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608389170192" />
+    <state width="1388" height="416" key="GridCell.Tab.0.center" timestamp="1608389170191">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="302" key="GridCell.Tab.0.center/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186425" />
-    <state width="1388" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608134786517" />
-    <state width="1388" height="302" key="GridCell.Tab.0.left" timestamp="1608134786517">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1388" height="416" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608387911623" />
+    <state width="1388" height="416" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608389170191" />
+    <state width="1388" height="416" key="GridCell.Tab.0.left" timestamp="1608389170190">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="302" key="GridCell.Tab.0.left/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186419" />
-    <state width="1388" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608134786517" />
-    <state width="1388" height="302" key="GridCell.Tab.0.right" timestamp="1608134786518">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1388" height="416" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608387911623" />
+    <state width="1388" height="416" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608389170190" />
+    <state width="1388" height="416" key="GridCell.Tab.0.right" timestamp="1608389170192">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="302" key="GridCell.Tab.0.right/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186426" />
-    <state width="1388" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608134786518" />
-    <state width="2508" height="654" key="GridCell.Tab.1.bottom" timestamp="1608123224349">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1388" height="416" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608387911624" />
+    <state width="1388" height="416" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608389170192" />
+    <state width="1388" height="375" key="GridCell.Tab.1.bottom" timestamp="1608389170120">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="654" key="GridCell.Tab.1.bottom/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224349" />
-    <state width="1388" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608045434540" />
-    <state width="2508" height="654" key="GridCell.Tab.1.center" timestamp="1608123224347">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1388" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608387388346" />
+    <state width="1388" height="375" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608389170120" />
+    <state width="1388" height="375" key="GridCell.Tab.1.center" timestamp="1608389170115">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="654" key="GridCell.Tab.1.center/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224347" />
-    <state width="1388" height="376" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608045434538" />
-    <state width="2508" height="654" key="GridCell.Tab.1.left" timestamp="1608123224346">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1388" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608387388345" />
+    <state width="1388" height="375" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1608389170115" />
+    <state width="1388" height="375" key="GridCell.Tab.1.left" timestamp="1608389170114">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="654" key="GridCell.Tab.1.left/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224346" />
-    <state width="1388" height="376" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608045434538" />
-    <state width="2508" height="654" key="GridCell.Tab.1.right" timestamp="1608123224348">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1388" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608387388344" />
+    <state width="1388" height="375" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1608389170114" />
+    <state width="1388" height="375" key="GridCell.Tab.1.right" timestamp="1608389170118">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="2508" height="654" key="GridCell.Tab.1.right/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224348" />
-    <state width="1388" height="376" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608045434539" />
+    <state width="1388" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608387388345" />
+    <state width="1388" height="375" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1608389170118" />
     <state x="119" y="3" key="SettingsEditor" timestamp="1608044801564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -274,6 +280,11 @@
           <url>file://$PROJECT_DIR$/bfs/752_open-the-lock_test.go</url>
           <line>8</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
