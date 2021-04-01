@@ -20,19 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6895594-4728-4ae6-b742-c0152824aab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtrack/jzo38_zi-fu-chuan-de-pai-lie-lcof.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/141_linked-list-cycle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/242_valid-anagram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/438_find-all-anagrams.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/438_find-all-anagrams_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/567_permutation-in-string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/567_permutation-in-string_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double_point/sliding_window/template.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/1143_longestCommonSubsequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/1143_longestCommonSubsequence_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/121_maxProfit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/354_maxEnvelopes_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/72_edit-distance_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/ms_17_the-masseuse-lcci_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/offer42_maxSubArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/offer42_maxSubArray_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review/bytedance/lru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review/bytedance/万万没想到之聪明的编辑-双指针.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review/sort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/until/stack.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtrack/46_permutations_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/backtrack/46_permutations_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp/322_coin-change.go" beforeDir="false" afterPath="$PROJECT_DIR$/dp/322_coin-change.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
@@ -64,84 +73,84 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/double_point/sliding_window" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dp" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/double_point" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dp" />
       <recent name="$PROJECT_DIR$/double_point/sliding_window" />
       <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/bfs" />
       <recent name="$PROJECT_DIR$/backtrack" />
-      <recent name="$PROJECT_DIR$/dp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/double_point" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)">
-    <configuration name="TestCheckInclusion in github.com/leetcode_record/sliding_window (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestMaxProfit in github.com/leetcode_record/dp (1)">
+    <configuration name="TestMaxProfit in github.com/leetcode_record/dp (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/sliding_window" />
+      <working_directory value="$PROJECT_DIR$/dp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/sliding_window" />
+      <package value="github.com/leetcode_record/dp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCheckInclusion\E$" />
+      <pattern value="^\QTestMaxProfit\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCheckInclusion in github.com/leetcode_record/sliding_window" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMaxProfit in github.com/leetcode_record/dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/sliding_window" />
+      <working_directory value="$PROJECT_DIR$/dp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/sliding_window" />
+      <package value="github.com/leetcode_record/dp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCheckInclusion\E$" />
+      <pattern value="^\QTestMaxProfit\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMessage in github.com/leetcode_record/dp (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/double_point/sliding_window" />
+      <working_directory value="$PROJECT_DIR$/dp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/double_point/sliding_window" />
+      <package value="github.com/leetcode_record/dp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestFindAnagrams\E$" />
+      <pattern value="^\QTestMessage\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMessage in github.com/leetcode_record/dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/double_point/sliding_window" />
+      <working_directory value="$PROJECT_DIR$/dp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/double_point/sliding_window" />
+      <package value="github.com/leetcode_record/dp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestFindAnagrams\E$" />
+      <pattern value="^\QTestMessage\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPermutation in github.com/leetcode_record/backtrack (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMinDistance in github.com/leetcode_record/dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/backtrack" />
+      <working_directory value="$PROJECT_DIR$/dp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/backtrack" />
+      <package value="github.com/leetcode_record/dp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestPermutation\E$" />
+      <pattern value="^\QTestMinDistance\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window (1)" />
-        <item itemvalue="Go Test.TestFindAnagrams in github.com/leetcode_record/double_point/sliding_window" />
-        <item itemvalue="Go Test.TestCheckInclusion in github.com/leetcode_record/sliding_window (1)" />
-        <item itemvalue="Go Test.TestCheckInclusion in github.com/leetcode_record/sliding_window" />
-        <item itemvalue="Go Test.TestPermutation in github.com/leetcode_record/backtrack (2)" />
+        <item itemvalue="Go Test.TestMaxProfit in github.com/leetcode_record/dp (1)" />
+        <item itemvalue="Go Test.TestMaxProfit in github.com/leetcode_record/dp" />
+        <item itemvalue="Go Test.TestMessage in github.com/leetcode_record/dp (1)" />
+        <item itemvalue="Go Test.TestMessage in github.com/leetcode_record/dp" />
+        <item itemvalue="Go Test.TestMinDistance in github.com/leetcode_record/dp" />
       </list>
     </recent_temporary>
   </component>
@@ -161,73 +170,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="841" height="1218" key="DebuggerActiveHint" timestamp="1608002792897">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="841" height="1218" key="DebuggerActiveHint/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608002792897" />
-    <state width="473" height="761" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1607957574634" />
-    <state x="322" y="214" key="EditFileWatcherDialog" timestamp="1608044799817">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="322" y="214" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1608044799817" />
-    <state width="1388" height="416" key="GridCell.Tab.0.bottom" timestamp="1608389170192">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="302" key="GridCell.Tab.0.bottom/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186427" />
-    <state width="1388" height="416" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608387911625" />
-    <state width="1388" height="416" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608389170192" />
-    <state width="1388" height="416" key="GridCell.Tab.0.center" timestamp="1608389170191">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="302" key="GridCell.Tab.0.center/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186425" />
-    <state width="1388" height="416" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608387911623" />
-    <state width="1388" height="416" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608389170191" />
-    <state width="1388" height="416" key="GridCell.Tab.0.left" timestamp="1608389170190">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="302" key="GridCell.Tab.0.left/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186419" />
-    <state width="1388" height="416" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608387911623" />
-    <state width="1388" height="416" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608389170190" />
-    <state width="1388" height="416" key="GridCell.Tab.0.right" timestamp="1608389170192">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="302" key="GridCell.Tab.0.right/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608124186426" />
-    <state width="1388" height="416" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608387911624" />
-    <state width="1388" height="416" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608389170192" />
-    <state width="1388" height="375" key="GridCell.Tab.1.bottom" timestamp="1608389170120">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="654" key="GridCell.Tab.1.bottom/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224349" />
-    <state width="1388" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608387388346" />
-    <state width="1388" height="375" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608389170120" />
-    <state width="1388" height="375" key="GridCell.Tab.1.center" timestamp="1608389170115">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="654" key="GridCell.Tab.1.center/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224347" />
-    <state width="1388" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608387388345" />
-    <state width="1388" height="375" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1608389170115" />
-    <state width="1388" height="375" key="GridCell.Tab.1.left" timestamp="1608389170114">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="654" key="GridCell.Tab.1.left/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224346" />
-    <state width="1388" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608387388344" />
-    <state width="1388" height="375" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1608389170114" />
-    <state width="1388" height="375" key="GridCell.Tab.1.right" timestamp="1608389170118">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="2508" height="654" key="GridCell.Tab.1.right/-1440.55.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1608123224348" />
-    <state width="1388" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608387388345" />
-    <state width="1388" height="375" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1608389170118" />
-    <state x="119" y="3" key="SettingsEditor" timestamp="1608044801564">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="119" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608044801564" />
-    <state x="350" y="143" width="740" height="614" key="find.popup" timestamp="1607957909010">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="350" y="143" width="740" height="614" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607957909010" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -240,11 +182,6 @@
           <url>file://$PROJECT_DIR$/dp/322_coin-change_test.go</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/dp/322_coin-change.go</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/backtrack/46_permutations.go</url>
@@ -285,6 +222,31 @@
           <url>file://$PROJECT_DIR$/double_point/sliding_window/76_minimum-window-substring_test.go</url>
           <line>8</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dp/offer42_maxSubArray_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dp/1143_longestCommonSubsequence_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dp/ms_17_the-masseuse-lcci_test.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/[5]最长回文子串.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/[560]和为K的子数组.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
