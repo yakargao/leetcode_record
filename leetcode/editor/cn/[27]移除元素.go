@@ -1,4 +1,5 @@
-//给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。 
+package cn
+//给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
 //
 // 不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。 
 //
@@ -59,7 +60,36 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func removeElement(nums []int, val int) int {
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func inOrder(root *TreeNode){
+	if root == nil{
+		return
+	}
+	inOrder(root.Left)
+	if pre == nil{
+		pre = root
+	}else{
+		if ans > pre.Val - root.Val{
+			ans = pre.Val - root.Val
+		}
+		pre = root
+	}
+	inOrder(root.Right)
 
+}
+var pre *TreeNode
+var ans = 1<<63-1
+func minDiffInBST(root *TreeNode) int {
+	pre =  nil
+	ans = 1<<63-1
+	inOrder(root)
+	return ans
 }
 //leetcode submit region end(Prohibit modification and deletion)

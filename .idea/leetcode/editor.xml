@@ -59,6 +59,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[169]多数元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[169]多数元素.go" />
+              <option name="questionId" value="169" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[173]二叉搜索树迭代器.go">
           <value>
             <LeetcodeEditor>
@@ -96,6 +104,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.go" />
               <option name="questionId" value="206" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[208]实现 Trie (前缀树).go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[208]实现 Trie (前缀树).go" />
+              <option name="questionId" value="208" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -195,6 +211,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[283]移动零.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[283]移动零.go" />
+              <option name="questionId" value="283" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2]两数相加.go">
           <value>
             <LeetcodeEditor>
@@ -256,6 +280,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[42]接雨水.go" />
               <option name="questionId" value="42" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go" />
+              <option name="questionId" value="448" />
             </LeetcodeEditor>
           </value>
         </entry>
