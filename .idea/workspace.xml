@@ -22,10 +22,9 @@
     <list default="true" id="a6895594-4728-4ae6-b742-c0152824aab4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[27]移除元素.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[27]移除元素.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[78]子集.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[78]子集.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review/sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/review/sort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

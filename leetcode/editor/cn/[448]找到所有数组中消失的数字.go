@@ -20,6 +20,16 @@ package cn
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func findDisappearedNumbers(nums []int) []int {
-
+	flag := make([]int,len(nums)+1)
+	result := make([]int,0)
+	for _,num := range nums{
+		flag[num]++
+	}
+	for i:=1;i<=len(nums);i++{
+		if flag[i]==0 {
+			result = append(result,i)
+		}
+	}
+	return result
 }
 //leetcode submit region end(Prohibit modification and deletion)
