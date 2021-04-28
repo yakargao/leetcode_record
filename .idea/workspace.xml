@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6895594-4728-4ae6-b742-c0152824aab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/三数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/mergesort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/quicksort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/sort_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[1347]制造字母异位词的最小步骤数.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[1347]制造字母异位词的最小步骤数.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[1687]从仓库到码头运输箱子.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[1687]从仓库到码头运输箱子.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[173]二叉搜索树迭代器.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[173]二叉搜索树迭代器.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[239]滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[239]滑动窗口最大值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/mergesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/mergesort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

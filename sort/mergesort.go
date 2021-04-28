@@ -9,6 +9,7 @@ func mergeSort(nums []int) []int {
 	right := mergeSort(nums[mid:])
 	return merge(left, right)
 }
+
 func merge(left, right []int) []int {
 	result := make([]int, 0)
 	p1, p2 := 0, 0
