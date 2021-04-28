@@ -3,6 +3,7 @@ package sort
 func quickSort(nums []int, low, high int) {
 	if low < high {
 		pivotPos := partition(nums, low, high)
+		//每一轮有一个数确定了位置
 		quickSort(nums, low, pivotPos-1)
 		quickSort(nums, pivotPos+1, high)
 	}
