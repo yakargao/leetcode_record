@@ -1,4 +1,5 @@
-//实现一个二叉搜索树迭代器。你将使用二叉搜索树的根节点初始化迭代器。 
+package cn
+//实现一个二叉搜索树迭代器。你将使用二叉搜索树的根节点初始化迭代器。
 //
 // 调用 next() 将返回二叉搜索树中的下一个最小的数。 
 //
@@ -45,18 +46,18 @@ type BSTIterator struct {
 }
 
 
-func Constructor(root *TreeNode) BSTIterator {
-
+func Constructor1(root *TreeNode) BSTIterator {
+	return BSTIterator{}
 }
 
 
 func (this *BSTIterator) Next() int {
-
+	return 0
 }
 
 
 func (this *BSTIterator) HasNext() bool {
-
+return false
 }
 
 

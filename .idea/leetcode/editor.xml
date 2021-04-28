@@ -11,6 +11,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1046]最后一块石头的重量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1046]最后一块石头的重量.go" />
+              <option name="questionId" value="1127" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[109]有序链表转换二叉搜索树.go">
           <value>
             <LeetcodeEditor>
@@ -56,6 +64,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.go" />
               <option name="questionId" value="155" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和.go" />
+              <option name="questionId" value="15" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -168,6 +184,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[21]合并两个有序链表.go" />
               <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[220]存在重复元素 III.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[220]存在重复元素 III.go" />
+              <option name="questionId" value="220" />
             </LeetcodeEditor>
           </value>
         </entry>

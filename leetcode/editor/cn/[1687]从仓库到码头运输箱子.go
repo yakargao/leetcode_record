@@ -1,3 +1,4 @@
+package cn
 //You have the task of delivering some boxes from storage to their ports using o
 //nly one ship. However, this ship has a limit on the number of boxes and the tota
 //l weight that it can carry. 
@@ -113,6 +114,6 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func boxDelivering(boxes [][]int, portsCount int, maxBoxes int, maxWeight int) int {
-
+return 0
 }
 //leetcode submit region end(Prohibit modification and deletion)

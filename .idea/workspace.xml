@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6895594-4728-4ae6-b742-c0152824aab4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/doc/三数之和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/mergesort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/quicksort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[448]找到所有数组中消失的数字.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[78]子集.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[78]子集.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[1347]制造字母异位词的最小步骤数.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[1347]制造字母异位词的最小步骤数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[1687]从仓库到码头运输箱子.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[1687]从仓库到码头运输箱子.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[173]二叉搜索树迭代器.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[173]二叉搜索树迭代器.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[239]滑动窗口最大值.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[239]滑动窗口最大值.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +88,18 @@
       <recent name="$PROJECT_DIR$/double_point" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMaxProfit in github.com/leetcode_record/dp (1)">
+  <component name="RunManager" selected="Go Test.TestThreeSum in github.com/leetcode_record/leetcode/editor/cn">
+    <configuration name="Test in github.com/leetcode_record/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_record" />
+      <working_directory value="$PROJECT_DIR$/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/leetcode_record/sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTest\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestMaxProfit in github.com/leetcode_record/dp (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
       <working_directory value="$PROJECT_DIR$/dp" />
@@ -102,46 +122,34 @@
       <pattern value="^\QTestMaxProfit\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMessage in github.com/leetcode_record/dp (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestThreeSum in github.com/leetcode_record/leetcode/editor/cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/dp" />
+      <working_directory value="$PROJECT_DIR$/leetcode/editor/cn" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/dp" />
+      <package value="github.com/leetcode_record/leetcode/editor/cn" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMessage\E$" />
+      <pattern value="^\QTestThreeSum\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMessage in github.com/leetcode_record/dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/leetcode_record/leetcode/editor/cn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/dp" />
+      <working_directory value="$PROJECT_DIR$/leetcode/editor/cn" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/dp" />
+      <package value="github.com/leetcode_record/leetcode/editor/cn" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMessage\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMinDistance in github.com/leetcode_record/dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_record" />
-      <working_directory value="$PROJECT_DIR$/dp" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/leetcode_record/dp" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestMinDistance\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestThreeSum in github.com/leetcode_record/leetcode/editor/cn" />
+        <item itemvalue="Go Test.go test github.com/leetcode_record/leetcode/editor/cn" />
+        <item itemvalue="Go Test.Test in github.com/leetcode_record/sort" />
         <item itemvalue="Go Test.TestMaxProfit in github.com/leetcode_record/dp (1)" />
         <item itemvalue="Go Test.TestMaxProfit in github.com/leetcode_record/dp" />
-        <item itemvalue="Go Test.TestMessage in github.com/leetcode_record/dp (1)" />
-        <item itemvalue="Go Test.TestMessage in github.com/leetcode_record/dp" />
-        <item itemvalue="Go Test.TestMinDistance in github.com/leetcode_record/dp" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +246,11 @@
           <url>file://$PROJECT_DIR$/leetcode/editor/cn/[560]和为K的子数组.go</url>
           <line>27</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和_test.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

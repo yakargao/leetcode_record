@@ -1,4 +1,7 @@
 package cn
+
+import "container/list"
+
 //给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位
 //。 
 //
@@ -63,7 +66,39 @@ package cn
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func maxSlidingWindow(nums []int, k int) []int {
 
+type MonotonicQueue struct {
+	queue list.List
+}
+
+func (q *MonotonicQueue)push(val int)  {
+	for q.queue.Len() != 0 && q.queue.Back().Value.(int) < val{
+		q.queue.Remove(q.queue.Back())
+	}
+	q.queue.PushBack(val)
+}
+
+func (q *MonotonicQueue)pop(n int)  {
+	if q.queue.Front().Value.(int) == n { //想删除的元素可能不在单调队列里面了
+		q.queue.Remove(q.queue.Front())
+	}
+}
+
+func (q *MonotonicQueue)max()int {
+	return q.queue.Front().Value.(int)
+}
+func maxSlidingWindow(nums []int, k int) []int {
+	result := make([]int,0)
+	window := &MonotonicQueue{}
+	for i:=0;i<len(nums);i++{
+		if i < k - 1 {
+			window.push(nums[i])
+		}else{
+			window.push(nums[i])
+			result = append(result,window.max())
+			window.pop(nums[i-k+1])
+		}
+	}
+	return result
 }
 //leetcode submit region end(Prohibit modification and deletion)
