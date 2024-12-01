@@ -1,7 +1,9 @@
 package slice
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAA(t *testing.T) {
-	firstMissingPositive([]int{3, 4, -1, 1})
+	Constructor([]int{-2, 0, 3, -5, 2, -1})
 }
